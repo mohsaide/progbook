@@ -1,0 +1,10 @@
+#imgCover
+{
+    background-color: #0f8d7a76;
+    opacity:0;
+}
+#imgCover:hover
+{
+    opacity:1;
+}
+

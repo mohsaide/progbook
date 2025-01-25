@@ -1,0 +1,36 @@
+
+
+.btn
+{
+     background-color: #008374;
+     border: white;
+}
+
+.btn:hover
+{
+    background-color: #10b9a6;
+}
+
+.btn:active
+{
+     background-color: #dce7e1 !important;
+     border: white;
+}
+
+label
+{
+    margin-top: 1vh !important;
+    color: #f25840 !important;
+}
+
+label::after
+{
+    content: ' *';
+    color: #008374;
+}
+
+
+.w-40 
+{
+    width: 40% ;
+}
