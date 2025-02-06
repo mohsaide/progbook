@@ -10,7 +10,7 @@ SECRET_KEY = 'django-insecure-_!74n)6ck$hnj8*@^d5zd$%mef9o-5ocx%ts6ck_$6en-=fqx4
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['progbook.app']
 
 
 # Application definition
