@@ -2,3 +2,5 @@
 db.sqlite3
 /progbook_project/__pycache__
 stderr.log
+/venv
+*.pyc

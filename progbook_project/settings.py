@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-&!!unq!p4-!m=2wo$u3w0r=xvh*5$t03c*a*+d5%90%yb_qb32
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['progbook.app']
+ALLOWED_HOSTS = ['progbook.app' , '127.0.0.1']
 
 
 # Application definition
@@ -37,6 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'progbook_landing.apps.ProgbookLandingConfig'
 ]
 
 MIDDLEWARE = [
