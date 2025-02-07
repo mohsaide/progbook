@@ -2,4 +2,4 @@
 from django.http import HttpResponse
 
 def landing_page(request):
-    return HttpResponse('Success!')
+    return HttpResponse('Hi Aseel!')
