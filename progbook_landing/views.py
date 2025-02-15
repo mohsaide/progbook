@@ -1,5 +1,4 @@
-# from django.shortcuts import render
-from django.http import HttpResponse
+from django.shortcuts import render
 
 def landing_page(request):
-    return HttpResponse('Hi Mohammad!')
+    return render(request, 'landing_page_index.html')

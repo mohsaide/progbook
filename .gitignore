@@ -4,3 +4,5 @@ db.sqlite3
 stderr.log
 /venv
 *.pyc
+/progbook_collected_statics
+.DS_Store
