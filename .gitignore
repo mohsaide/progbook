@@ -6,3 +6,5 @@ stderr.log
 *.pyc
 /progbook_collected_statics
 .DS_Store
+progbook_project/__pycache__
+passenger_wsgi.py
