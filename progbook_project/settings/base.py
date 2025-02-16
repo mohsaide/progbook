@@ -1,12 +1,12 @@
 from pathlib import Path
 
-BASE_DIR = Path(__file__).resolve().parent.parent
+BASE_DIR = Path(__file__).resolve().parent.parent.parent
 
 SECRET_KEY = 'django-insecure-&!!unq!p4-!m=2wo$u3w0r=xvh*5$t03c*a*+d5%90%yb_qb32'
 
 DEBUG = True
 
-ALLOWED_HOSTS = ['progbook.app' , '127.0.0.1']
+ALLOWED_HOSTS = []
 
 
 INSTALLED_APPS = [
@@ -81,8 +81,8 @@ USE_L10N = True
 
 USE_TZ = True
 
-STATIC_ROOT = Path.joinpath(BASE_DIR , 'progbook_collected_statics')
-STATIC_URL = '/progbook_collected_statics/'
+STATIC_ROOT = ''
+STATIC_URL = '/static/'
 STATICFILES_DIRS = [
     Path.joinpath( BASE_DIR, 'progbook_statics')
 ]

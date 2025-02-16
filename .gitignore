@@ -3,8 +3,10 @@ db.sqlite3
 /progbook_project/__pycache__
 stderr.log
 /venv
-*.pyc
+*/__pycache__/*
 /progbook_collected_statics
 .DS_Store
 progbook_project/__pycache__
 passenger_wsgi.py
+progbook_project/settings/local.py
+/tmp
