@@ -82,7 +82,7 @@ USE_L10N = True
 USE_TZ = True
 
 STATIC_ROOT = ''
-STATIC_URL = '/static/'
+STATIC_URL = '/progbook_collected_statics/'
 STATICFILES_DIRS = [
     Path.joinpath( BASE_DIR, 'progbook_statics')
 ]
