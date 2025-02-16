@@ -6,9 +6,6 @@ SECRET_KEY = 'django-insecure-&!!unq!p4-!m=2wo$u3w0r=xvh*5$t03c*a*+d5%90%yb_qb32
 
 DEBUG = True
 
-ALLOWED_HOSTS = []
-
-
 INSTALLED_APPS = [
     'django.contrib.admin',
     'django.contrib.auth',
@@ -81,10 +78,8 @@ USE_L10N = True
 
 USE_TZ = True
 
-STATIC_ROOT = ''
+
 STATIC_URL = '/progbook_collected_statics/'
-STATICFILES_DIRS = [
-    Path.joinpath( BASE_DIR, 'progbook_statics')
-]
+STATICFILES_DIRS = [  Path.joinpath( BASE_DIR, 'progbook_statics') ]
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
