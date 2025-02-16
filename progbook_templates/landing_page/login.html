@@ -1,0 +1,56 @@
+{% extends 'landing_page/base.html' %}
+{% load static %}
+{% block title %}Progbook Application  - Starter Page {% endblock %}
+{% block main %}
+<main class="main">
+
+    <!-- Page Title -->
+    <div class="page-title" data-aos="fade">
+      <nav class="breadcrumbs">
+        <div class="container">
+          <ol>
+            <li><a href="{% url 'home' %}">Home</a></li>
+            <li class="current">Login</li>
+          </ol>
+        </div>
+      </nav>
+    </div><!-- End Page Title -->
+
+
+
+<!-- Login Section -->
+<section id="login" class="starter-section section">
+  <div class="container" data-aos="fade-up">
+    <div class="row justify-content-center">
+      <div class="col-12 col-md-8 col-lg-6">
+        <div class="card p-4" style="background-color: var(--surface-color); border-radius: 8px;">
+          <div class="d-flex align-items-center justify-content-center mb-3">
+            <!-- Logo to the left of the title -->
+            <img src="{% static 'img/logo.png' %}" alt="Logo" style="max-width: 50px; margin-right: 10px;">
+            <h2 style="color: var(--heading-color);">Login</h2>
+          </div>
+          <form>
+            <div class="mb-3">
+              <input type="email" class="form-control" id="email" placeholder="Enter your email">
+            </div>
+            <div class="mb-3">
+              <input type="password" class="form-control" id="password" placeholder="Enter your password">
+            </div>
+            <!-- Centering and making the button wider -->
+            <div class="d-flex justify-content-center">
+              <button type="submit" class="btn w-100" style="background-color: var(--accent-color); color: var(--contrast-color);">Login</button>
+            </div>
+            <div class="text-center mt-3">
+              <a href="{% url 'reset_password' %}" style="color: var(--accent-color);">Forgot your password?</a>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</section><!-- /Login Section -->
+
+
+
+  </main>
+{% endblock main %}
