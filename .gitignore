@@ -10,3 +10,4 @@ progbook_project/__pycache__
 passenger_wsgi.py
 progbook_project/settings/local.py
 /tmp
+*.pyc
