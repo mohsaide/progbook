@@ -3,7 +3,7 @@
   --heading-font: "Raleway", sans-serif;
   --nav-font: "Poppins", sans-serif;
   scroll-behavior: smooth;
-  --background-color: #1e1e1e; /* Soft charcoal gray background for a modern but not too harsh tone */
+  --background-color: #3F3D56; /* Soft charcoal gray background for a modern but not too harsh tone */
   --default-color: #d1d1d1; /* Light gray text for readability */
   --heading-color: #ffffff; /* White headings for high contrast */
   --accent-color: #ff6f61; /* Coral for vibrant accents like buttons, links, and highlights */
@@ -13,7 +13,7 @@
   /* Navigation Colors */
   --nav-color: #d1d1d1;  /* Light gray for nav links */
   --nav-hover-color: #ff6f61; /* Coral on hover for navigation links */
-  --nav-mobile-background-color: #1e1e1e; /* Dark background for mobile nav */
+  --nav-mobile-background-color: #3F3D56; /* Dark background for mobile nav */
   --nav-dropdown-background-color: #292929; /* Darker surface for dropdowns */
   --nav-dropdown-color: #d1d1d1; /* Light gray for dropdown links */
   --nav-dropdown-hover-color: #ff6f61; /* Coral hover color for dropdown links */
@@ -26,7 +26,7 @@
 }
 
 .dark-background {
-  --background-color: #1e1e1e; /* Soft charcoal gray for dark background */
+  --background-color: #3F3D56; /* Soft charcoal gray for dark background */
   --default-color: #d1d1d1; /* Light gray text */
   --heading-color: #ffffff; /* White headings */
   --surface-color: #292929; /* Darker surface color */

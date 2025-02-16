@@ -1,0 +1,252 @@
+{% extends 'landing_page/base.html' %}
+{% load static %}
+{% block title %} Progbook Community {% endblock %}
+{% block main %}
+<main class="main">
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero section light-background">
+
+      <div class="container position-relative" data-aos="fade-up" data-aos-delay="100">
+        <div class="row gy-5">
+          <div class="col-lg-6 order-2 order-lg-1 d-flex flex-column justify-content-center">
+            <h2>Progbook Community</h2>
+             <p style="word-wrap: break-word;text-align: justify;" >Empowering Developers, Uniting Innovation, Elevating Progress!</p>
+            <div class="d-flex gap-3">
+              <a href="#" class="btn-get-started">Login</a>
+              <a href="#" class="btn-get-started">Join The Community</a>
+            </div>
+          </div>
+          <div class="col-lg-6 order-1 order-lg-2">
+            <img src="{% static 'img/hero.svg' %}" class="img-fluid" alt="">
+          </div>
+        </div>
+      </div>
+
+      <div class="icon-boxes position-relative" data-aos="fade-up" data-aos-delay="200">
+        <div class="container position-relative">
+          <div class="row gy-4 mt-5">
+
+
+
+            <div class="col-xl-4 col-md-6">
+              <div class="icon-box">
+                <div class="icon"><i class="bi bi-person"></i></div>
+                <h4 class="title"><a class="stretched-link">Profile Builder</a></h4>
+              </div>
+            </div><!--End Icon Box -->
+
+            <div class="col-xl-4 col-md-6">
+              <div class="icon-box">
+                <div class="icon"><i class="bi bi-tools"></i></div>
+                <h4 class="title"><a class="stretched-link">Developer Tools</a></h4>
+              </div>
+            </div><!--End Icon Box -->
+
+            <div class="col-xl-4 col-md-6">
+              <div class="icon-box">
+                <div class="icon"><i class="bi bi-book"></i></div>
+                <h4 class="title"><a class="stretched-link">Courses and Tutorials</a></h4>
+              </div>
+            </div><!--End Icon Box -->
+
+            <div class="col-xl-4 col-md-6">
+              <div class="icon-box">
+                <div class="icon"><i class="bi bi-people"></i></div>
+                <h4 class="title"><a class="stretched-link">Community Collaboration</a></h4>
+              </div>
+            </div><!--End Icon Box -->
+
+            <div class="col-xl-4 col-md-6">
+              <div class="icon-box">
+                <div class="icon"><i class="bi bi-pencil"></i></div>
+                <h4 class="title"><a class="stretched-link">Blog and Insights</a></h4>
+              </div>
+            </div><!--End Icon Box -->
+
+                        <div class="col-xl-4 col-md-6">
+              <div class="icon-box">
+                <div class="icon"><i class="bi bi-lightbulb"></i></div>
+                <h4 class="title"><a class="stretched-link">AI Assistance</a></h4>
+              </div>
+            </div><!--End Icon Box -->
+
+
+          </div>
+        </div>
+      </div>
+
+    </section><!-- /Hero Section -->
+
+    <!-- Services Section -->
+    <section id="services" class="services section light-background">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <div><span>Check Our</span> <span class="description-title">Services</span></div>
+      </div><!-- End Section Title -->
+
+      <div class="container">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="100">
+            <div class="service-item  position-relative">
+              <div class="icon">
+                <i class="bi bi-person"></i>
+              </div>
+              <a href="{% url 'service' name='profile_builder' %}" class="stretched-link">
+                <h3>Profile Builder</h3>
+              </a>
+              <p>Create and customize your professional developer profile, track your progress, and generate your CV.</p>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="100">
+            <div class="service-item  position-relative">
+              <div class="icon">
+                <i class="bi bi-person"></i>
+              </div>
+              <a href="{% url 'service' name='profile_builder' %}" class="stretched-link">
+                <h3>Profile Builder</h3>
+              </a>
+              <p>Create and customize your professional developer profile, track your progress, and generate your CV.</p>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="100">
+            <div class="service-item  position-relative">
+              <div class="icon">
+                <i class="bi bi-person"></i>
+              </div>
+              <a href="{% url 'service' name='profile_builder' %}" class="stretched-link">
+                <h3>Profile Builder</h3>
+              </a>
+              <p>Create and customize your professional developer profile, track your progress, and generate your CV.</p>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="100">
+            <div class="service-item  position-relative">
+              <div class="icon">
+                <i class="bi bi-person"></i>
+              </div>
+              <a href="{% url 'service' name='profile_builder' %}" class="stretched-link">
+                <h3>Profile Builder</h3>
+              </a>
+              <p>Create and customize your professional developer profile, track your progress, and generate your CV.</p>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="100">
+            <div class="service-item  position-relative">
+              <div class="icon">
+                <i class="bi bi-person"></i>
+              </div>
+              <a href="{% url 'service' name='profile_builder' %}" class="stretched-link">
+                <h3>Profile Builder</h3>
+              </a>
+              <p>Create and customize your professional developer profile, track your progress, and generate your CV.</p>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="100">
+            <div class="service-item  position-relative">
+              <div class="icon">
+                <i class="bi bi-person"></i>
+              </div>
+              <a href="{% url 'service' name='profile_builder' %}" class="stretched-link">
+                <h3>Profile Builder</h3>
+              </a>
+              <p>Create and customize your professional developer profile, track your progress, and generate your CV.</p>
+            </div>
+          </div><!-- End Service Item -->
+
+
+
+        </div>
+
+      </div>
+
+    </section><!-- /Services Section -->
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <div><span>Need Help?</span> <span class="description-title">Contact Us</span></div>
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade" data-aos-delay="100">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-4">
+            <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="200">
+              <i class="bi bi-geo-alt flex-shrink-0"></i>
+              <div>
+                <h3>Address</h3>
+                <p>Rafidia Street, Nablus, Palestine</p>
+              </div>
+            </div><!-- End Info Item -->
+
+            <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="300">
+              <i class="bi bi-telephone flex-shrink-0"></i>
+              <div>
+                <h3>Call Us</h3>
+                <p>+970 568 805 065</p>
+              </div>
+            </div><!-- End Info Item -->
+
+            <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="400">
+              <i class="bi bi-envelope flex-shrink-0"></i>
+              <div>
+                <h3>Email Us</h3>
+                <p>mohammad2001saide@gmail.com</p>
+              </div>
+            </div><!-- End Info Item -->
+
+          </div>
+
+          <div class="col-lg-8">
+            <form action="forms/contact.php" method="post" class="php-email-form" data-aos="fade-up" data-aos-delay="200">
+              <div class="row gy-4">
+
+                <div class="col-md-6">
+                  <input type="text" name="name" class="form-control" placeholder="Your Name" required="">
+                </div>
+
+                <div class="col-md-6 ">
+                  <input type="email" class="form-control" name="email" placeholder="Your Email" required="">
+                </div>
+
+                <div class="col-md-12">
+                  <input type="text" class="form-control" name="subject" placeholder="Subject" required="">
+                </div>
+
+                <div class="col-md-12">
+                  <textarea class="form-control" name="message" rows="6" placeholder="Message" required=""></textarea>
+                </div>
+
+                <div class="col-md-12 text-center">
+                  <div class="loading">Loading</div>
+                  <div class="error-message"></div>
+                  <div class="sent-message">Your message has been sent. Thank you!</div>
+
+                  <button type="submit">Send Message</button>
+                </div>
+
+              </div>
+            </form>
+          </div><!-- End Contact Form -->
+
+        </div>
+
+      </div>
+
+    </section><!-- /Contact Section -->
+
+
+  </main>
+{% endblock main %}
