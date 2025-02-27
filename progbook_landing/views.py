@@ -1,11 +1,15 @@
-from django.shortcuts import render
+from django.shortcuts import render , HttpResponse
 
 
 def landing_page(request):
     return render(request, 'landing_page/index.html' )
 
 def login(request):
-    return render(request, 'landing_page/login.html' )
+    if request.method == 'GET' :
+        return render(request, 'landing_page/login.html' )
+    elif request.method == 'POST' :
+        return HttpResponse('Success!')
+
 
 def reset_password(request):
     return render(request, 'landing_page/reset_password.html' )

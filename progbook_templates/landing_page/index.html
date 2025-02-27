@@ -6,20 +6,31 @@
 
     <!-- Hero Section -->
     <section id="hero" class="hero section light-background">
-      <div class="container position-relative" data-aos="fade-up" data-aos-delay="100">
-        <div class="row gy-5">
-          <div class="d-flex flex-column justify-content-center">
-            <h3 class="text-light p-3 rounded" style="background-color:#333333; font-family: monospace;">
-                 <span style="color:coral;" >progbook&gt; </span>cd ./progbook_app/
-                 <br>
-                 <br>
-                 <span style="color:coral;" >progbook&gt; </span> ls services <span class="blink" style="color:coral;" > _</span>
+
+      <div class="container position-relative" >
+        <div class="row"  >
+          <div class="col-lg-6 d-flex order-1 justify-content-center" data-aos="fade-right" data-aos-delay="400">
+            <img src="{% static 'img/hero.svg' %}" class="img-fluid" alt="">
+          </div>
+          <div class="d-flex col-lg-6 flex-column order-2 p-5 vh-50" data-aos="fade-left" data-aos-delay="400"  >
+            <h3 class="text-light p-3 rounded  h-100" style="background-color:rgba(63, 61, 86, 0.4); font-family: 'Consolas', 'Courier New', monospace;">
+              <br>
+              <span style="color:coral;" >progbook&gt; </span>cd progbook.app
+              <br><br>
+              <span style="color:coral;" >progbook&gt; </span> ls ./tools
+              <br><br>
+              <span style="color:coral;" >progbook&gt; </span> ls ./courses
+              <br><br>
+              <span style="color:coral;" >progbook&gt; </span> ls ./blogs
+              <br><br>
+              <span style="color:coral;" >progbook&gt; </span> <span class="blink" style="color:coral;" > _</span>
+              <br><br>
             </h3>
           </div>
         </div>
       </div>
 
-      <div class="icon-boxes position-relative" data-aos="fade-up" data-aos-delay="200">
+      <div class="icon-boxes position-relative" data-aos="fade-up" data-aos-delay="600">
         <div class="container position-relative">
           <div class="row gy-4 mt-5">
 
@@ -104,17 +115,6 @@
               </div>
             </div><!--End Icon Box -->
 
-          </div>
-        </div>
-      </div>
-
-      <div class="container position-relative" data-aos="fade-up" data-aos-delay="300">
-        <div class="row gy-5">
-          <div class="col-lg-6 order-1 ">
-            <img src="{% static 'img/hero.svg' %}" class="img-fluid" alt="">
-          </div>
-           <div class="col-lg-6 order-1 d-none d-lg-block">
-            <img src="{% static 'img/hero.svg' %}" class="img-fluid" alt="">
           </div>
         </div>
       </div>
