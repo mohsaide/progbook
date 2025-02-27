@@ -6,19 +6,15 @@
 
     <!-- Hero Section -->
     <section id="hero" class="hero section light-background">
-
       <div class="container position-relative" data-aos="fade-up" data-aos-delay="100">
         <div class="row gy-5">
-          <div class="col-lg-6 order-2 order-lg-1 d-flex flex-column justify-content-center">
-            <h2>Progbook Community</h2>
-             <p style="word-wrap: break-word;text-align: justify;" >Empowering Developers, Uniting Innovation, Elevating Progress!</p>
-            <div class="d-flex gap-3">
-              <a href="{% url 'login' %}" class="btn-get-started">Login</a>
-              <a href="#" class="btn-get-started">Join The Community</a>
-            </div>
-          </div>
-          <div class="col-lg-6 order-1 order-lg-2">
-            <img src="{% static 'img/hero.svg' %}" class="img-fluid" alt="">
+          <div class="d-flex flex-column justify-content-center">
+            <h3 class="text-light p-3 rounded" style="background-color:#333333; font-family: monospace;">
+                 <span style="color:coral;" >progbook&gt; </span>cd ./progbook_app/
+                 <br>
+                 <br>
+                 <span style="color:coral;" >progbook&gt; </span> ls services <span class="blink" style="color:coral;" > _</span>
+            </h3>
           </div>
         </div>
       </div>
@@ -27,147 +23,104 @@
         <div class="container position-relative">
           <div class="row gy-4 mt-5">
 
-
             <div class="col-xl-4 col-md-6">
               <div class="icon-box">
                 <div class="icon"><i class="bi bi-person"></i></div>
-                <h4 class="title"><a class="stretched-link">Profile Builder</a></h4>
+                <a href="{% url 'service' name='profile_builder' %}" class="stretched-link">
+                <h4>Profile Builder</h4>
+              </a>
               </div>
             </div><!--End Icon Box -->
-
             <div class="col-xl-4 col-md-6">
               <div class="icon-box">
-                <div class="icon"><i class="bi bi-tools"></i></div>
-                <h4 class="title"><a class="stretched-link">Developer Tools</a></h4>
+                <div class="icon"><i class="bi bi-person"></i></div>
+                <a href="{% url 'service' name='profile_builder' %}" class="stretched-link">
+                <h4>Profile Builder</h4>
+              </a>
               </div>
             </div><!--End Icon Box -->
-
             <div class="col-xl-4 col-md-6">
               <div class="icon-box">
-                <div class="icon"><i class="bi bi-book"></i></div>
-                <h4 class="title"><a class="stretched-link">Courses and Tutorials</a></h4>
+                <div class="icon"><i class="bi bi-person"></i></div>
+                <a href="{% url 'service' name='profile_builder' %}" class="stretched-link">
+                <h4>Profile Builder</h4>
+              </a>
               </div>
             </div><!--End Icon Box -->
-
+            <div class="col-xl-3 col-md-6">
+              <div class="icon-box">
+                <div class="icon"><i class="bi bi-person"></i></div>
+                <a href="{% url 'service' name='profile_builder' %}" class="stretched-link">
+                <h4>Profile Builder</h4>
+              </a>
+              </div>
+            </div><!--End Icon Box -->
+            <div class="col-xl-3 col-md-6">
+              <div class="icon-box">
+                <div class="icon"><i class="bi bi-person"></i></div>
+                <a href="{% url 'service' name='profile_builder' %}" class="stretched-link">
+                <h4>Profile Builder</h4>
+              </a>
+              </div>
+            </div><!--End Icon Box -->
+            <div class="col-xl-3 col-md-6">
+              <div class="icon-box">
+                <div class="icon"><i class="bi bi-person"></i></div>
+                <a href="{% url 'service' name='profile_builder' %}" class="stretched-link">
+                <h4>Profile Builder</h4>
+              </a>
+              </div>
+            </div><!--End Icon Box -->
+            <div class="col-xl-3 col-md-6">
+              <div class="icon-box">
+                <div class="icon"><i class="bi bi-person"></i></div>
+                <a href="{% url 'service' name='profile_builder' %}" class="stretched-link">
+                <h4>Profile Builder</h4>
+              </a>
+              </div>
+            </div><!--End Icon Box -->
             <div class="col-xl-4 col-md-6">
               <div class="icon-box">
-                <div class="icon"><i class="bi bi-people"></i></div>
-                <h4 class="title"><a class="stretched-link">Community Collaboration</a></h4>
+                <div class="icon"><i class="bi bi-person"></i></div>
+                <a href="{% url 'service' name='profile_builder' %}" class="stretched-link">
+                <h4>Profile Builder</h4>
+              </a>
               </div>
             </div><!--End Icon Box -->
-
             <div class="col-xl-4 col-md-6">
               <div class="icon-box">
-                <div class="icon"><i class="bi bi-pencil"></i></div>
-                <h4 class="title"><a class="stretched-link">Blog and Insights</a></h4>
+                <div class="icon"><i class="bi bi-person"></i></div>
+                <a href="{% url 'service' name='profile_builder' %}" class="stretched-link">
+                <h4>Profile Builder</h4>
+              </a>
               </div>
             </div><!--End Icon Box -->
-
-                        <div class="col-xl-4 col-md-6">
+            <div class="col-xl-4 col-md-6">
               <div class="icon-box">
-                <div class="icon"><i class="bi bi-lightbulb"></i></div>
-                <h4 class="title"><a class="stretched-link">AI Assistance</a></h4>
+                <div class="icon"><i class="bi bi-person"></i></div>
+                <a href="{% url 'service' name='profile_builder' %}" class="stretched-link">
+                <h4>Profile Builder</h4>
+              </a>
               </div>
             </div><!--End Icon Box -->
-
 
           </div>
         </div>
       </div>
 
-    </section><!-- /Hero Section -->
-
-    <!-- Services Section -->
-    <section id="services" class="services section light-background">
-
-      <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
-        <div><span>Check Our</span> <span class="description-title">Services</span></div>
-      </div><!-- End Section Title -->
-
-      <div class="container">
-
-        <div class="row gy-4">
-
-          <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="100">
-            <div class="service-item  position-relative">
-              <div class="icon">
-                <i class="bi bi-person"></i>
-              </div>
-              <a href="{% url 'service' name='profile_builder' %}" class="stretched-link">
-                <h3>Profile Builder</h3>
-              </a>
-              <p>Create and customize your professional developer profile, track your progress, and generate your CV.</p>
-            </div>
-          </div><!-- End Service Item -->
-
-          <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="100">
-            <div class="service-item  position-relative">
-              <div class="icon">
-                <i class="bi bi-person"></i>
-              </div>
-              <a href="{% url 'service' name='profile_builder' %}" class="stretched-link">
-                <h3>Profile Builder</h3>
-              </a>
-              <p>Create and customize your professional developer profile, track your progress, and generate your CV.</p>
-            </div>
-          </div><!-- End Service Item -->
-
-          <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="100">
-            <div class="service-item  position-relative">
-              <div class="icon">
-                <i class="bi bi-person"></i>
-              </div>
-              <a href="{% url 'service' name='profile_builder' %}" class="stretched-link">
-                <h3>Profile Builder</h3>
-              </a>
-              <p>Create and customize your professional developer profile, track your progress, and generate your CV.</p>
-            </div>
-          </div><!-- End Service Item -->
-
-          <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="100">
-            <div class="service-item  position-relative">
-              <div class="icon">
-                <i class="bi bi-person"></i>
-              </div>
-              <a href="{% url 'service' name='profile_builder' %}" class="stretched-link">
-                <h3>Profile Builder</h3>
-              </a>
-              <p>Create and customize your professional developer profile, track your progress, and generate your CV.</p>
-            </div>
-          </div><!-- End Service Item -->
-
-          <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="100">
-            <div class="service-item  position-relative">
-              <div class="icon">
-                <i class="bi bi-person"></i>
-              </div>
-              <a href="{% url 'service' name='profile_builder' %}" class="stretched-link">
-                <h3>Profile Builder</h3>
-              </a>
-              <p>Create and customize your professional developer profile, track your progress, and generate your CV.</p>
-            </div>
-          </div><!-- End Service Item -->
-
-          <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="100">
-            <div class="service-item  position-relative">
-              <div class="icon">
-                <i class="bi bi-person"></i>
-              </div>
-              <a href="{% url 'service' name='profile_builder' %}" class="stretched-link">
-                <h3>Profile Builder</h3>
-              </a>
-              <p>Create and customize your professional developer profile, track your progress, and generate your CV.</p>
-            </div>
-          </div><!-- End Service Item -->
-
-
-
+      <div class="container position-relative" data-aos="fade-up" data-aos-delay="300">
+        <div class="row gy-5">
+          <div class="col-lg-6 order-1 ">
+            <img src="{% static 'img/hero.svg' %}" class="img-fluid" alt="">
+          </div>
+           <div class="col-lg-6 order-1 d-none d-lg-block">
+            <img src="{% static 'img/hero.svg' %}" class="img-fluid" alt="">
+          </div>
         </div>
-
       </div>
 
-    </section><!-- /Services Section -->
+
+    </section><!-- /Hero Section -->
 
     <!-- Contact Section -->
     <section id="contact" class="contact section">
@@ -245,7 +198,6 @@
       </div>
 
     </section><!-- /Contact Section -->
-
 
   </main>
 {% endblock main %}

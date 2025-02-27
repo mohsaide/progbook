@@ -1305,3 +1305,48 @@ section,
 .lexend-mega-font {
   font-family: 'Lexend Mega', sans-serif;
 }
+
+.btn-primary {
+  background-color: var(--accent-color); /* Coral primary button */
+  border-color: var(--accent-color);
+  color: var(--contrast-color); /* White text */
+  font-weight: 600;
+  transition: all 0.3s ease-in-out;
+}
+
+.btn-primary:hover,
+.btn-primary:focus {
+  background-color: #e65c53; /* Slightly darker coral for hover */
+  border-color: #e65c53;
+  color: var(--contrast-color) !important; /* Force white text */
+}
+
+/* Rounded Button Style */
+.btn-primary.rounded-pill {
+  border-radius: 50px;
+  padding: 10px 25px;
+}
+
+.navmenu ul li {
+  margin-right: 15px;
+}
+
+@media (max-width: 768px) {
+  .navmenu ul li {
+  margin-bottom: 10px;
+   text-align: center;
+}
+  .navmenu ul li a {
+  text-align: center;
+}
+}
+
+.blink {
+  animation: blink 1s step-start infinite;
+}
+
+@keyframes blink {
+  50% {
+    opacity: 0;
+  }
+}
