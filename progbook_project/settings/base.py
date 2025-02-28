@@ -13,7 +13,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'progbook_landing.apps.ProgbookLandingConfig'
+    'progbook_landing.apps.ProgbookLandingConfig',
+    'progbook_dashboard.apps.ProgbookDashboardConfig'
 ]
 
 MIDDLEWARE = [

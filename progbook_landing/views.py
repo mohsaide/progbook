@@ -1,4 +1,4 @@
-from django.shortcuts import render , HttpResponse
+from django.shortcuts import render
 
 
 def landing_page(request):
@@ -8,8 +8,7 @@ def login(request):
     if request.method == 'GET' :
         return render(request, 'landing_page/login.html' )
     elif request.method == 'POST' :
-        return HttpResponse('Success!')
-
+        return render(request, 'dashboard/index.html')
 
 def reset_password(request):
     return render(request, 'landing_page/reset_password.html' )
